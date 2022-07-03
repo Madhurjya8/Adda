@@ -81,9 +81,9 @@ const Signup = () => {
       !email ||
       email === "" ||
       !password ||
-      password == "" ||
+      password === "" ||
       !confirmpassword ||
-      confirmpassword == ""
+      confirmpassword === ""
     ) {
       toast({
         title: "Please Fill all the Feilds",
